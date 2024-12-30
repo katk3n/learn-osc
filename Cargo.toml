@@ -1,0 +1,15 @@
+[package]
+name = "learn-osc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = "0.15.0"
+bevy_mod_osc = "0.3.0"
+rosc = "0.10.1"
+
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 3
